@@ -5,6 +5,8 @@ models (LMMs) and related models to genome-wide association studies
 (GWAS) and other large-scale data sets. This source code repository represents a
 version of GEMMA which is under development.
 
+*GEMMA2* is a new generation of the original GEMMA. We decided on a fresh start. For more information see the [big picture](https://portal.mozz.us/gemini/thebird.nl/blog/2021/gemma-big-picture.gmi).
+
 Check out [RELEASE-NOTES.md](RELEASE-NOTES.md) to see what's new in
 each GEMMA release.
 
