@@ -16,6 +16,10 @@ For the stable release of GEMMA, see the [git repository](https://github.com/gen
 
 Currently GEMMA2 has no improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
 
+## DEVELOPMENT
+
+See the development [docs](doc/gemma2-development.md).
+
 ## LICENSE
 
 Copyright (C) 2012–2021, Xiang Zhou, Pjotr Prins and team.
