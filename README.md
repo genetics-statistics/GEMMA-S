@@ -12,7 +12,11 @@ each GEMMA release.
 
 For the stable release of GEMMA, see the [git repository](https://github.com/genetics-statistics/GEMMA).
 
-# LICENSE
+## FEATURES
+
+Currently GEMMA2 has no improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
+
+## LICENSE
 
 Copyright (C) 2012–2021, Xiang Zhou, Pjotr Prins and team.
 
@@ -24,7 +28,6 @@ that it will be useful, but **without any warranty**; without even the
 implied warranty of **merchantability or fitness for a particular
 purpose**. GEMMA2 is published under the GPL-3.0 License. See
 [LICENSE](LICENSE).
-
 
 ## Reporting a GEMMA2 bug or issue
 
