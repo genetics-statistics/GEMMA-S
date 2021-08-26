@@ -70,6 +70,8 @@ and
 Dept. of Biostatistics<br>
 University of Michigan<br>
 
+See also [contributors](https://github.com/genetics-statistics/GEMMA-S/graphs/contributors).
+
 [latest_release]: https://github.com/genetics-statistics/GEMMA-S/releases "Most recent stable releases"
 
 The original *GEMMA* software was developed by:
