@@ -1,4 +1,4 @@
-;; To use this file to build HEAD of gemma2:
+;; To use this file to build HEAD of gemma-s:
 ;;
 ;;   guix build -f guix.scm
 ;;
@@ -39,9 +39,9 @@
 (define %gemma-version
     (read-string (open-pipe "cat VERSION" OPEN_READ)))
 
-(define-public gemma2-git
+(define-public gemma-s-git
   (package
-    (name "gemma2-git")
+    (name "gemma-s-git")
     (version (git-version %gemma-version "HEAD" %git-commit))
     (source (local-file %source-dir #:recursive? #t))
     (build-system meson-build-system)
@@ -64,4 +64,4 @@ provides a standard linear mixed model resolver with application in
 genome-wide association studies (GWAS).")
     (license license:gpl3)))
 
-gemma2-git
+gemma-s-git

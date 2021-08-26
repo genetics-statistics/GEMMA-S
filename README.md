@@ -1,39 +1,38 @@
-# GEMMA2: Genome-wide Efficient Mixed Model Association (new generation)
+# GEMMA-S: Genome-wide Efficient Mixed Model Association (Service)
 
 GEMMA is a software toolkit for fast application of linear mixed
 models (LMMs) and related models to genome-wide association studies
 (GWAS) and other large-scale data sets. This source code repository represents a
 version of GEMMA which is under development.
 
-*GEMMA2* is a new generation of the original GEMMA. We decided on a fresh start. For more information see the [big picture](https://portal.mozz.us/gemini/thebird.nl/blog/2021/gemma-big-picture.gmi).
+*GEMMA-S* is a new generation of the original GEMMA. We decided on a fresh start to create a more service oriented solution. For more information see the [big picture](https://portal.mozz.us/gemini/thebird.nl/blog/2021/gemma-big-picture.gmi).
 
-Check out [RELEASE-NOTES.md](RELEASE-NOTES.md) to see what's new in
-each GEMMA release.
+Check out [RELEASE-NOTES.md](RELEASE-NOTES.md) to see what's new in each GEMMA release.
 
 For the stable release of GEMMA, see the [git repository](https://github.com/genetics-statistics/GEMMA).
 
 ## FEATURES
 
-Currently GEMMA2 has no improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
+Currently GEMMA-S has no improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
 
 ## DEVELOPMENT
 
-See the development [docs](doc/gemma2-development.md).
+See the development [docs](doc/gemma-s-development.md).
 
 ## LICENSE
 
 Copyright (C) 2012–2021, Xiang Zhou, Pjotr Prins and team.
 
-The *GEMMA2* source code repository is free software: you can
+The *GEMMA-S* source code repository is free software: you can
 redistribute it under the terms of the [GNU General Public
 License](http://www.gnu.org/licenses/gpl.html). All the files in this
-project are part of *GEMMA2*. This project is distributed in the hope
+project are part of *GEMMA-S*. This project is distributed in the hope
 that it will be useful, but **without any warranty**; without even the
 implied warranty of **merchantability or fitness for a particular
-purpose**. GEMMA2 is published under the GPL-3.0 License. See
+purpose**. GEMMA-S is published under the GPL-3.0 License. See
 [LICENSE](LICENSE).
 
-## Reporting a GEMMA2 bug or issue
+## Reporting a GEMMA-S bug or issue
 
 For bugs GEMMAv1 has an
 [issue tracker](https://github.com/genetics-statistics/GEMMA/issues)
@@ -74,4 +73,4 @@ University of Tennessee Health Science Center<br>
 with contributions from Peter Carbonetto, Tim Flutre, Matthew Stephens,
 and [others](https://github.com/genetics-statistics/GEMMA/graphs/contributors).
 
-[latest_release]: https://github.com/genetics-statistics/GEMMA2/releases "Most recent stable releases"
+[latest_release]: https://github.com/genetics-statistics/GEMMA-S/releases "Most recent stable releases"
