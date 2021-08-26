@@ -29,8 +29,8 @@ License](http://www.gnu.org/licenses/gpl.html). All the files in this
 project are part of *GEMMA-S*. This project is distributed in the hope
 that it will be useful, but **without any warranty**; without even the
 implied warranty of **merchantability or fitness for a particular
-purpose**. GEMMA-S is published under the GPL-3.0 License. See
-[LICENSE](LICENSE).
+purpose**. GEMMA and GEMMA-S are published under the GPL-3.0
+License. See [LICENSE](LICENSE).
 
 ## Reporting a GEMMA-S bug or issue
 

@@ -1,0 +1,45 @@
+#! /usr/bin/env ruby
+# coding: utf-8
+#
+
+gempath = File.dirname(File.dirname(__FILE__))
+$: << File.join(gempath,'lib/ruby')
+
+VERSION_FILENAME=File.join(gempath,'VERSION')
+GEMMA_S_VERSION = File.new(VERSION_FILENAME).read.chomp
+COPYRIGHT="Copyright (C) 2012-2021, Xiang Zhou, Pjotr Prins and team"
+
+require 'pp'
+require 'options'
+
+USAGE =<<EOU
+
+  GEMMA as a Service #{GEMMA_S_VERSION} (GEMMA-S) is a next generation of the original GEMMA
+
+  GEMMA-S recognizes the following commands (use with --help to see more):
+
+    grm       Compute kinship/genetic relationship matrix (GRM)
+EOU
+
+options = {
+  verbose: true,
+  debug: false,
+  show_help: false,
+  version: GEMMA_S_VERSION
+}
+
+if ARGV.index("grm")
+  opts = get_options(COPYRIGHT,"grm","Compute kinship/genetic relationship matrix (GRM)",options, lambda { |opts,options|
+                       opts.on("-g", "--geno file",String, "Genotype file") do |fn|
+                         options[:geno] = fn
+                       end
+                     })
+else
+  # if options[:show_help] or ARGV.size == 0
+  print USAGE
+end
+
+
+# $stderr.print options if options[:debug]
+
+# o = OpenStruct.new(options)
