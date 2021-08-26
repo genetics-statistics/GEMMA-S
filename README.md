@@ -5,7 +5,7 @@ models (LMMs) and related models to genome-wide association studies
 (GWAS) and other large-scale data sets. This source code repository represents a
 version of GEMMA which is under development.
 
-*GEMMA-S* is a new generation of the original GEMMA. We decided on a fresh start to create a more service oriented solution. For more information see the [big picture](https://portal.mozz.us/gemini/thebird.nl/blog/2021/gemma-big-picture.gmi).
+GEMMA as a Service (*GEMMA-S* - it's a GAAS) is a next generation of the original GEMMA. We decided on a fresh start to create a more service oriented solution. For more information see the [big picture](https://portal.mozz.us/gemini/thebird.nl/blog/2021/gemma-big-picture.gmi).
 
 Check out [RELEASE-NOTES.md](RELEASE-NOTES.md) to see what's new in each GEMMA release.
 
@@ -13,11 +13,11 @@ For the stable release of GEMMA, see the [git repository](https://github.com/gen
 
 ## FEATURES
 
-Currently GEMMA-S has no improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
+For now, GEMMA-S has no real improvements over GEMMA1. For LOCO, parallel compute, permutations and caching, see [gemma-wrapper](https://github.com/genetics-statistics/gemma-wrapper). For validation and BIMBAM/plink/Rqtl2 parsing and conversion see [gemma2lib](https://github.com/genetics-statistics/gemma2lib).
 
 ## DEVELOPMENT
 
-See the development [docs](doc/gemma-s-development.md).
+To contribute, see the development [docs](doc/gemma-s-development.md).
 
 ## LICENSE
 
@@ -58,19 +58,22 @@ Software Carpentry initiative.
 
 ## Credits
 
-The *GEMMA* software was developed by:
-
-[Xiang Zhou](http://www.xzlab.org)<br>
-Dept. of Biostatistics<br>
-University of Michigan<br>
-
-and
+*GEMMA-S* is developed by
 
 [Pjotr Prins](http://thebird.nl/)<br>
 Dept. of Genetics, Genomics and Informatics<br>
 University of Tennessee Health Science Center<br>
 
-with contributions from Peter Carbonetto, Tim Flutre, Matthew Stephens,
-and [others](https://github.com/genetics-statistics/GEMMA/graphs/contributors).
+and
+
+[Xiang Zhou](http://www.xzlab.org)<br>
+Dept. of Biostatistics<br>
+University of Michigan<br>
 
 [latest_release]: https://github.com/genetics-statistics/GEMMA-S/releases "Most recent stable releases"
+
+The original *GEMMA* software was developed by:
+
+[Xiang Zhou](http://www.xzlab.org) and [Pjotr Prins](http://thebird.nl/)
+with contributions from Peter Carbonetto, Tim Flutre, Matthew Stephens,
+and others - see also [contributors](https://github.com/genetics-statistics/GEMMA/graphs/contributors).
